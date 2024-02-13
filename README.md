@@ -6,6 +6,9 @@ Forked to change to / when on a webpage with a text box to automatically focus t
 ### Installation 
 Click "View raw" on [GoFocusSelf.js](https://github.com/Vintagemotors/userscript-go-focus-self/blob/master/GoFocusSelf.js) and then install with your UserScript manager. 
 
+### Compatibility 
+Confirmed working on InterWebPPC! Also works on Firefox 123. Other versions not tested but it's *probably* fine. 
+
 ### Features
 This UserScript is different than simply pressing Tab to move the focus to the webpage's form controls.
 
