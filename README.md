@@ -1,14 +1,14 @@
-# WebExtension: Go Focus Self ![appicon](https://raw.githubusercontent.com/em-te/webextension-go-focus-self/master/icon_48.png)
+## Go Focus Self UserScript 
 
-## Summary
+### Summary
 Forked to change to / when on a webpage with a text box to automatically focus the text box to match Google, GitHub, and YouTube. This works even when you have scrolled down the webpage as only visible text boxes get focused.
 
-## Why
+### Why
 Many webpages require typing as the first thing you do. This includes entering your username to login or typing text to perform a search. Sometimes the webpage won't focus the main text box for the user, which means the user needs to click it with the mouse which is an extra step.
 
 Sometimes your hands are already on the keyboard ready to type and moving your hand back to the mouse to click and then move your hand back to the keyboard is simply too much work.
 
-## Features
+### Features
 This UserScript is different than simply pressing Tab to move the focus to the webpage's form controls.
 
 This UserScript has the following features:
