@@ -16,4 +16,5 @@ This UserScript has the following features:
 - If there is a password text box and a normal text box near each other, the password text box has less priority.
 - If the webpage has a text box with the autofocus attribute, it is selected first.
 
-
+### Updates 
+As far as I am concerned, this is a full, stable release. If you frequently use a site that already has / support by default, add it to the excluded sites list in the 2 places where you find all of the other excluded sites (Ctrl+F google.com and match the formatting). If you feel that it is a site that everyone uses, feel free to fork and add it to your fork. I want to keep this as small as possible so I am not going to add a bunch of sites to my version. 
