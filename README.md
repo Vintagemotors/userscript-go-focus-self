@@ -6,6 +6,9 @@ Forked to change to / when on a webpage with a text box to automatically focus t
 ### Installation 
 Click "View raw" on [GoFocusSelf.js](https://github.com/Vintagemotors/userscript-go-focus-self/blob/master/GoFocusSelf.js) and then install with your UserScript manager. 
 
+### Updates
+If you have 1.4 please update to 1.5 so that you can type the ```/``` key in an already active text field instead of it being suppressed. 
+
 ### Compatibility 
 Confirmed working on InterWebPPC! Also works on Firefox 123. Other versions not tested but it's *probably* fine. 
 
