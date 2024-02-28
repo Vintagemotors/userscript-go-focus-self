@@ -23,4 +23,12 @@ This UserScript has the following features:
 - If the webpage has a text box with the autofocus attribute, it is selected first.
 
 ### Updates 
-As far as I am concerned, this is a full, stable release. If you frequently use a site that already has / support by default, add it to the excluded sites list in the 2 places where you find all of the other excluded sites (Ctrl+F google.com and match the formatting). If you feel that it is a site that everyone uses, feel free to fork and add it to your fork. I want to keep this as small as possible so I am not going to add a bunch of sites to my version. 
+As far as I am concerned, this is a full, stable release. If you frequently use a site that already has / support by default, add it to the excluded sites list in the 2 places where you find all of the other excluded sites (Ctrl+F google.com and match the formatting). If your UserScript manager supports it you can also just click on the script and in the dropdown exclude the current site you are on if it is not needed.
+
+[Tampermonkey](https://www.tampermonkey.net/) Screenshot
+<details>
+<summary></summary>
+
+![image](https://github.com/Vintagemotors/userscript-go-focus-self/assets/103160565/1f510952-6ffa-444f-b0f7-fbee325c30a1)
+
+</details>
