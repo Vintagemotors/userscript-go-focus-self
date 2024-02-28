@@ -1,15 +1,16 @@
 // ==UserScript==
-// @name         GoFocusSelf
+// @name         Focusizer
 // @namespace    vintagemotors.github.io
-// @version      1.4
+// @version      1.5
 // @description  Focus on the first text field when '/' key is pressed (excluding YouTube, Google Search, and GitHub)
-// @author       Originally Terry - ported to UserScript by Vintagemotors 
+// @author       Vintagemotors
 // @match        *://*/*
 // @exclude      *://www.youtube.com/*
 // @exclude      *://www.google.com/search*
 // @exclude      *://github.com/*
 // @grant        none
 // ==/UserScript==
+
 
 (function() {
     'use strict';
@@ -60,10 +61,16 @@
     // Prevent the quick find bar on '/' key press
     window.addEventListener('keydown', function(e) {
         if (e.key === '/') {
+            // Check if any text field is already focused
+            let activeElement = document.activeElement;
+            if (activeElement.tagName === 'INPUT' || activeElement.tagName === 'TEXTAREA') {
+                return; // Let the '/' key type as normal
+            }
+
             e.preventDefault();
 
             // Exclude YouTube, Google Search, and GitHub
-            if (!location.hostname.includes('youtube.com') && 
+            if (!location.hostname.includes('youtube.com') &&
                 !location.href.includes('google.com/search') &&
                 !location.hostname.includes('github.com')) {
                 focusOnFirstTextField();
