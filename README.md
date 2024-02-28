@@ -4,7 +4,7 @@
 Forked to change to / when on a webpage with a text box to automatically focus the text box to match Google, GitHub, and YouTube. This works even when you have scrolled down the webpage as only visible text boxes get focused.
 
 ### Installation 
-Click "View raw" on [GoFocusSelf.js](https://github.com/Vintagemotors/userscript-go-focus-self/blob/master/GoFocusSelf.js) and then install with your UserScript manager. 
+Click [here](https://raw.githubusercontent.com/Vintagemotors/userscript-go-focus-self/master/GoFocusSelf.js) or click "View raw" on [GoFocusSelf.js](https://github.com/Vintagemotors/userscript-go-focus-self/blob/master/GoFocusSelf.js) and then install with your UserScript manager. 
 
 ### Updates
 If you have 1.4 please update to 1.5 so that you can type the ```/``` key in an already active text field instead of it being suppressed. 
