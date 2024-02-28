@@ -10,7 +10,7 @@ Click [here](https://raw.githubusercontent.com/Vintagemotors/userscript-go-focus
 If you have 1.4 please update to 1.5 so that you can type the ```/``` key in an already active text field instead of it being suppressed. 
 
 ### Compatibility 
-Confirmed working on InterWebPPC! Also works on Firefox 123. Other versions not tested but it's *probably* fine. 
+Confirmed working on InterWebPPC! Also works on Firefox 123, 124. Other versions not tested but it's *probably* fine. 
 
 ### Features
 This UserScript is different than simply pressing Tab to move the focus to the webpage's form controls.
